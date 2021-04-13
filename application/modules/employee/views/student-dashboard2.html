@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Peters Surgical</title>
+
+    <!-- Perfect Scrollbar -->
+    <link type="text/css" href="assets/vendor/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- Material Design Icons -->
+    <link type="text/css" href="assets/css/material-icons.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/material-icons.rtl.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link type="text/css" href="assets/css/fontawesome.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/fontawesome.rtl.css" rel="stylesheet">
+
+    <!-- App CSS -->
+    <link type="text/css" href="assets/css/app.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/app.rtl.css" rel="stylesheet">
+
+    <!-- Sweet Alert -->
+    <link rel="stylesheet" href="assets/css/sweetalert.css">
+
+</head>
+
+<body class=" layout-fluid">
+
+    <div class="preloader">
+        <div class="sk-double-bounce">
+            <div class="sk-child sk-double-bounce1"></div>
+            <div class="sk-child sk-double-bounce2"></div>
+        </div>
+    </div>
+
+    <!-- Header Layout -->
+    <div class="mdk-header-layout js-mdk-header-layout">
+
+        <!-- Header -->
+
+        <div id="header" data-fixed class="mdk-header js-mdk-header mb-0">
+            <div class="mdk-header__content">
+
+                <!-- Navbar -->
+                <nav id="default-navbar" class="navbar navbar-expand navbar-darkmm-0">
+                    <div class="container-fluid">
+                        <!-- Toggle sidebar -->
+                        <button class="navbar-toggler d-block" data-toggle="sidebar" type="button">
+                            <span class="material-icons">menu</span>
+                        </button>
+
+                        <!-- Brand -->
+                        <a href="student-dashboard.html" class="navbar-brand">
+                            <img src="assets/images/logo-text.png" class="mr-2" alt="" width="110">
+                        </a>
+
+
+                        <div class="flex"></div>
+
+                        <!-- Menu -->
+                        <ul class="nav navbar-nav flex-nowrap">
+
+
+
+                            <!-- Notifications dropdown -->
+                            <li class="nav-item dropdown dropdown-notifications dropdown-menu-sm-full">
+                                <button class="nav-link btn-flush dropdown-toggle" type="button" data-toggle="dropdown" data-dropdown-disable-document-scroll data-caret="false">
+                                    <i class="material-icons">notifications</i>
+                                    <span class="badge badge-notifications badge-danger">2</span>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div data-perfect-scrollbar class="position-relative">
+                                        <div class="dropdown-header"><strong>Messages</strong></div>
+                                        <div class="list-group list-group-flush mb-0">
+
+                                            <a href="#" class="list-group-item list-group-item-action unread">
+                                                <span class="d-flex align-items-center mb-1">
+                                                    <small class="text-muted">3 minutes ago</small>
+
+                                                    <span class="ml-auto" style="font-size: 12px;">Download</span>
+
+                                                </span>
+                                                <span class="d-flex">
+                                                    <span class="avatar avatar-xs mr-2">
+                                                        <img src="assets/images/people/110/woman-5.jpg" alt="people" class="avatar-img rounded-circle">
+                                                    </span>
+                                                    <span class="flex d-flex flex-column">
+                                                        <strong>Michelle</strong>
+                                                        <span class="text-black-70">New Course File</span>
+                                                    </span>
+                                                </span>
+                                            </a>
+
+                                            <a href="#" class="list-group-item list-group-item-action unread">
+                                                <span class="d-flex align-items-center mb-1">
+                                                    <small class="text-muted">5 minutes ago</small>
+
+                                                    <span class="ml-auto unread-indicator bg-primary"></span>
+
+                                                </span>
+                                                <span class="d-flex">
+                                                    <span class="avatar avatar-xs mr-2">
+                                                        <img src="assets/images/people/110/woman-5.jpg" alt="people" class="avatar-img rounded-circle">
+                                                    </span>
+                                                    <span class="flex d-flex flex-column">
+                                                        <strong>Michelle</strong>
+                                                        <span class="text-black-70">Clients loved the new design.</span>
+                                                    </span>
+                                                </span>
+                                            </a>
+
+                                            <a href="#" class="list-group-item list-group-item-action unread">
+                                                <span class="d-flex align-items-center mb-1">
+                                                    <small class="text-muted">5 minutes ago</small>
+
+                                                    <span class="ml-auto unread-indicator bg-primary"></span>
+
+                                                </span>
+                                                <span class="d-flex">
+                                                    <span class="avatar avatar-xs mr-2">
+                                                        <img src="assets/images/people/110/woman-5.jpg" alt="people" class="avatar-img rounded-circle">
+                                                    </span>
+                                                    <span class="flex d-flex flex-column">
+                                                        <strong>Michelle</strong>
+                                                        <span class="text-black-70">🔥 Superb job..</span>
+                                                    </span>
+                                                </span>
+                                            </a>
+
+                                        </div>
+
+                                        <div class="dropdown-header"><strong>System notifications</strong></div>
+                                        <div class="list-group list-group-flush mb-0">
+
+                                            <a href="#" class="list-group-item list-group-item-action border-left-3 border-left-danger">
+                                                <span class="d-flex align-items-center mb-1">
+                                                    <small class="text-muted">3 minutes ago</small>
+
+                                                </span>
+                                                <span class="d-flex">
+                                                    <span class="avatar avatar-xs mr-2">
+                                                        <span class="avatar-title rounded-circle bg-light">
+                                                            <i class="material-icons font-size-16pt text-danger">account_circle</i>
+                                                        </span>
+                                                    </span>
+                                                    <span class="flex d-flex flex-column">
+
+                                                        <span class="text-black-70">Your profile information has not been synced correctly.</span>
+                                                    </span>
+                                                </span>
+                                            </a>
+
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <span class="d-flex align-items-center mb-1">
+                                                    <small class="text-muted">5 hours ago</small>
+
+                                                </span>
+                                                <span class="d-flex">
+                                                    <span class="avatar avatar-xs mr-2">
+                                                        <span class="avatar-title rounded-circle bg-light">
+                                                            <i class="material-icons font-size-16pt text-success">group_add</i>
+                                                        </span>
+                                                    </span>
+                                                    <span class="flex d-flex flex-column">
+                                                        <strong>Adrian. D</strong>
+                                                        <span class="text-black-70">Wants to join your private group.</span>
+                                                    </span>
+                                                </span>
+                                            </a>
+
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <span class="d-flex align-items-center mb-1">
+                                                    <small class="text-muted">1 day ago</small>
+
+                                                </span>
+                                                <span class="d-flex">
+                                                    <span class="avatar avatar-xs mr-2">
+                                                        <span class="avatar-title rounded-circle bg-light">
+                                                            <i class="material-icons font-size-16pt text-warning">storage</i>
+                                                        </span>
+                                                    </span>
+                                                    <span class="flex d-flex flex-column">
+
+                                                        <span class="text-black-70">Your deploy was successful.</span>
+                                                    </span>
+                                                </span>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- // END Notifications dropdown -->
+                            <!-- User dropdown -->
+                            <li class="nav-item dropdown ml-1 ml-md-3">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"><img src="assets/images/people/50/guy-6.jpg" alt="Avatar" class="rounded-circle" width="40"></a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="#">
+                                        <i class="material-icons">lock</i> Logout
+                                    </a>
+                                </div>
+                            </li>
+                            <!-- // END User dropdown -->
+
+                        </ul>
+                        <!-- // END Menu -->
+                    </div>
+                </nav>
+                <!-- // END Navbar -->
+
+            </div>
+        </div>
+
+        <!-- // END Header -->
+
+        <!-- Header Layout Content -->
+        <div class="mdk-header-layout__content">
+
+            <div data-push data-responsive-width="992px" class="mdk-drawer-layout js-mdk-drawer-layout">
+                <div class="mdk-drawer-layout__content page ">
+
+                    <div class="container-fluid page__container">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="student-dashboard.html">Home</a></li>
+                            <li class="breadcrumb-item active">Employee Dashboard</li>
+                        </ol>
+                        <h1 class="h2">Employee Dashboard</h1>
+
+
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="media align-items-center">
+                                            <div class="media-body">
+                                                <h4 class="card-title">Courses</h4>
+                                                <p class="card-subtitle">Your recent courses</p>
+                                            </div>
+                                            <div class="media-right">
+                                                <a class="btn btn-sm btn-primary" href="#">All courses</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <ul class="list-group list-group-fit mb-0" style="z-index: initial;">
+
+                                        <li class="list-group-item" style="z-index: initial;">
+                                            <div class="d-flex align-items-center">
+                                                <a href="#" class="avatar avatar-4by3 avatar-sm mr-3">
+                                                    <img src="assets/images/gulp.png" alt="course" class="avatar-img rounded">
+                                                </a>
+                                                <div class="flex">
+                                                    <p class="text-body mb-0"><strong>Learn Vue.js Fundamentals</strong></p>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="progress" style="width: 100px;">
+                                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                        <small class="text-muted ml-2">25%</small>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown ml-3">
+                                                    <a href="#" class="dropdown-toggle text-muted" data-caret="false" data-toggle="dropdown">
+                                                        <i class="material-icons">more_vert</i>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a class="dropdown-item" href="#">Continue</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="list-group-item course-disable " style="z-index: initial;">
+                                            <div class="d-flex align-items-center">
+                                                <a href="#" class="avatar avatar-4by3 avatar-sm mr-3">
+                                                    <img src="assets/images/vuejs.png" alt="course" class="avatar-img rounded">
+                                                </a>
+                                                <div class="flex">
+                                                    <p class="text-body mb-0"><strong>Angular in Steps</strong></p>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="progress" style="width: 100px;">
+                                                            <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                        <small class="text-muted ml-2">100%</small>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown ml-3">
+                                                    <a href="#" class="dropdown-toggle text-muted" data-caret="false" data-toggle="dropdown">
+                                                        <i class="material-icons">more_vert</i>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a class="dropdown-item" href="#">Continue</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="list-group-item course-disable " style="z-index: initial;">
+                                            <div class="d-flex align-items-center">
+                                                <a href="#" class="avatar avatar-4by3 avatar-sm mr-3">
+                                                    <img src="assets/images/nodejs.png" alt="course" class="avatar-img rounded">
+                                                </a>
+                                                <div class="flex">
+                                                    <p class="text-body mb-0"><strong>Bootstrap Foundations</strong></p>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="progress" style="width: 100px;">
+                                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                        <small class="text-muted ml-2">80%</small>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown ml-3">
+                                                    <a href="#" class="dropdown-toggle text-muted" data-caret="false" data-toggle="dropdown">
+                                                        <i class="material-icons">more_vert</i>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a class="dropdown-item" href="#">Continue</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="list-group-item course-disable " style="z-index: initial;">
+                                            <div class="d-flex align-items-center">
+                                                <a href="#" class="avatar avatar-4by3 avatar-sm mr-3">
+                                                    <img src="assets/images/vuejs.png" alt="course" class="avatar-img rounded">
+                                                </a>
+                                                <div class="flex">
+                                                    <p class="text-body mb-0"><strong>Angular in Steps</strong></p>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="progress" style="width: 100px;">
+                                                            <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                        <small class="text-muted ml-2">100%</small>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown ml-3">
+                                                    <a href="#" class="dropdown-toggle text-muted" data-caret="false" data-toggle="dropdown">
+                                                        <i class="material-icons">more_vert</i>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a class="dropdown-item" href="#">Continue</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="media align-items-center">
+                                            <div class="media-body">
+                                                <h4 class="card-title">Birthday List</h4>
+                                                <p class="card-subtitle">Birthday list of all employees for 25-01-2020</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="swal-confirm-delete" class="d-none" data-swal-type="success" data-swal-title="Sent!" data-swal-text="Your birthday wish has been sent to Magnus Goldsmith"></div>
+
+                                    <div id="swal-cancel-delete" class="d-none" data-swal-type="error" data-swal-title="Cancelled" data-swal-text="Your message was not sent"></div>
+
+                                    <ul class="list-group list-group-fit">
+
+
+                                        <li class="list-group-item forum-thread">
+                                            <div class="media align-items-center">
+                                                <div class="media-left">
+                                                    <div class="forum-icon-wrapper">
+                                                        <a href="#" class="forum-thread-icon" data-toggle="swal" data-swal-title="Here's the message" data-swal-text="Happy Birthday Magnus" data-swal-show-cancel-button="true" data-swal-confirm-button-text="Yes, send it!" data-swal-confirm-cb="#swal-confirm-delete" data-swal-close-on-confirm="false">
+                                                            <i class="material-icons">forum</i>
+                                                        </a>
+                                                        <div class="forum-thread-user">
+                                                            <img src="assets/images/people/50/guy-1.jpg" alt="" width="20" class="rounded-circle">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="d-flex align-items-center">
+                                                        <span class="text-body"><strong>Luci Bryant</strong></span>
+                                                        <small class="ml-auto text-muted">25-01-1995</small>
+                                                    </div>
+                                                    <p class="text-black-70" href="#">Wish Luci Bryant Happy Birthday</p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+
+
+                                        <li class="list-group-item forum-thread">
+                                            <div class="media align-items-center">
+                                                <div class="media-left">
+                                                    <div class="forum-icon-wrapper">
+                                                        <a href="#" class="forum-thread-icon" data-toggle="swal" data-swal-title="Here's the message" data-swal-text="Happy Birthday Magnus" data-swal-show-cancel-button="true" data-swal-confirm-button-text="Yes, send it!" data-swal-confirm-cb="#swal-confirm-delete" data-swal-close-on-confirm="false">
+                                                            <i class="material-icons">forum</i>
+                                                        </a>
+                                                        <div class="forum-thread-user">
+                                                            <img src="assets/images/people/50/guy-2.jpg" alt="" width="20" class="rounded-circle">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="d-flex align-items-center">
+                                                        <span class="text-body"><strong>Magnus Goldsmith</strong></span>
+                                                        <small class="ml-auto text-muted">25-01-1999</small>
+                                                    </div>
+                                                    <p class="text-black-70" href="#">Wish Magnus Goldsmith Happy Birthday</p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+
+
+                                        <li class="list-group-item forum-thread">
+                                            <div class="media align-items-center">
+                                                <div class="media-left">
+                                                    <div class="forum-icon-wrapper">
+                                                        <a href="#" class="forum-thread-icon" data-toggle="swal" data-swal-title="Here's the message" data-swal-text="Happy Birthday Magnus" data-swal-show-cancel-button="true" data-swal-confirm-button-text="Yes, send it!" data-swal-confirm-cb="#swal-confirm-delete" data-swal-close-on-confirm="false">
+                                                            <i class="material-icons">forum</i>
+                                                        </a>
+                                                        <div class="forum-thread-user">
+                                                            <img src="assets/images/people/50/woman-1.jpg" alt="" width="20" class="rounded-circle">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="d-flex align-items-center">
+                                                        <span class="text-body"><strong>Katelyn Rankin</strong></span>
+                                                        <small class="ml-auto text-muted">25-01-2002</small>
+                                                    </div>
+                                                    <p class="text-black-70" href="#">Wish Katelyn Rankin Happy Birthday</p>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="media align-items-center">
+                                            <div class="media-body">
+                                                <h4 class="card-title">Points</h4>
+                                                <p class="card-subtitle">Your scored points</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-group list-group-fit mb-0 point-height">
+
+                                        <li class="list-group-item">
+                                            <div class="media align-items-center">
+                                                <div class="media-body">
+                                                    <a class="text-body" href="student-quiz-results.html"><strong>Basics of HTML</strong></a><br>
+                                                </div>
+                                                <div class="media-right text-center d-flex align-items-center">
+                                                    <h4 class="mb-0">5.8</h4>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <div class="media align-items-center">
+                                                <div class="media-body">
+                                                    <a class="text-body" href="student-quiz-results.html"><strong>Angular in Steps</strong></a><br>
+                                                </div>
+                                                <div class="media-right text-center d-flex align-items-center">
+                                                    <h4 class="mb-0">9.5</h4>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <div class="media align-items-center">
+                                                <div class="media-body">
+                                                    <a class="text-body" href="student-quiz-results.html"><strong>Bootstrap Foundations</strong></a><br>
+                                                </div>
+                                                <div class="media-right text-center d-flex align-items-center">
+                                                    <h4 class="mb-0">2.2</h4>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <div class="media align-items-center">
+                                                <div class="media-body">
+                                                    <a class="text-body" href="student-quiz-results.html"><strong>Basics of HTML</strong></a><br>
+                                                </div>
+                                                <div class="media-right text-center d-flex align-items-center">
+                                                    <h4 class="mb-0">5.8</h4>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <div class="media align-items-center">
+                                                <div class="media-body">
+                                                    <a class="text-body" href="student-quiz-results.html"><strong>Angular in Steps</strong></a><br>
+                                                </div>
+                                                <div class="media-right text-center d-flex align-items-center">
+                                                    <h4 class="mb-0">9.5</h4>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <div class="media align-items-center">
+                                                <div class="media-body">
+                                                    <a class="text-body" href="student-quiz-results.html"><strong>Bootstrap Foundations</strong></a><br>
+                                                </div>
+                                                <div class="media-right text-center d-flex align-items-center">
+                                                    <h4 class="mb-0">2.2</h4>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+
+
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="media align-items-center">
+                                            <div class="media-body">
+                                                <h4 class="card-title">Quizzes</h4>
+                                                <p class="card-subtitle">Your Performance</p>
+                                            </div>
+                                            <div class="media-right">
+                                                <a class="btn btn-sm btn-primary" href="#">Quiz results</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-group list-group-fit mb-0">
+
+                                        <li class="list-group-item">
+                                            <div class="media align-items-center">
+                                                <div class="media-body">
+                                                    <a class="text-body" href="student-quiz-results.html"><strong>Basics of HTML</strong></a><br>
+                                                    <div class="d-flex align-items-center">
+                                                        <small class="text-black-50 text-uppercase mr-2">Course</small>
+                                                        <a href="#">Basics of HTML</a>
+                                                    </div>
+                                                </div>
+                                                <div class="media-right text-center d-flex align-items-center">
+                                                    <span class="text-black-50 mr-3">Good</span>
+                                                    <h4 class="mb-0">5.8</h4>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <div class="media align-items-center">
+                                                <div class="media-body">
+                                                    <a class="text-body" href="student-quiz-results.html"><strong>Directives &amp; Routing</strong></a><br>
+                                                    <div class="d-flex align-items-center">
+                                                        <small class="text-black-50 text-uppercase mr-2">Course</small>
+                                                        <a href="#">Angular in Steps</a>
+                                                    </div>
+                                                </div>
+                                                <div class="media-right text-center d-flex align-items-center">
+                                                    <span class="text-black-50 mr-3">Great</span>
+                                                    <h4 class="mb-0 text-success">9.8</h4>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <div class="media align-items-center">
+                                                <div class="media-body">
+                                                    <a class="text-body" href="student-quiz-results.html"><strong>Responsive &amp; Retina</strong></a><br>
+                                                    <div class="d-flex align-items-center">
+                                                        <small class="text-black-50 text-uppercase mr-2">Course</small>
+                                                        <a href="#">Bootstrap Foundations</a>
+                                                    </div>
+                                                </div>
+                                                <div class="media-right text-center d-flex align-items-center">
+                                                    <span class="text-black-50 mr-3">Failed</span>
+                                                    <h4 class="mb-0 text-danger">2.8</h4>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <br><h4 class="card-title">Activities</h4><br>
+
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="card card--elevated mdk-reveal event-block">
+                                    <img src="assets/images/event-1.jpg" alt="">
+                                    <div class="event-content">
+                                        <h5>Nemo enim ipsam voluptatem</h5>
+                                        <p><span>Venue:</span>251 San Carlos St, Nokomis, FL, 34275</p>
+                                        <p><span>Date:</span>14-02-2020 | 5:00 pm</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+                                <div class="card card--elevated mdk-reveal event-block">
+                                    <img src="assets/images/event-2.jpg" alt="">
+                                    <div class="event-content">
+                                        <h5>Quis autem vel eum iure reprehenderit</h5>
+                                        <p><span>Venue:</span>278 S Lincoln St, Minster, OH, 45865</p>
+                                        <p><span>Date:</span>26-01-2020 | 11:30 am</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="card card--elevated mdk-reveal event-block">
+
+                                    <img src="assets/images/event-3.jpg" alt="">
+                                    <div class="event-content">
+                                        <h5>Similique sunt in culpa qui officia</h5>
+                                        <p><span>Venue:</span>251 San Carlos St, Nokomis, FL, 34275</p>
+                                        <p><span>Date:</span>14-02-2020 | 5:00 pm</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                                <div class="card card--elevated mdk-reveal event-block">
+
+                                    <img src="assets/images/event-4.jpg" alt="">
+                                    <div class="event-content">
+                                        <h5>Nemo enim ipsam voluptatem</h5>
+                                        <p><span>Venue:</span>251 San Carlos St, Nokomis, FL, 34275</p>
+                                        <p><span>Date:</span>14-02-2020 | 5:00 pm</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="mdk-drawer js-mdk-drawer" id="default-drawer">
+                    <div class="mdk-drawer__content ">
+                        <div class="sidebar sidebar-left sidebar-dark o-hidden" data-perfect-scrollbar>
+                            <div class="sidebar-p-y">
+                                <ul class="sidebar-menu sm-active-button-bg">
+                                    <li class="sidebar-menu-item active">
+                                        <a class="sidebar-menu-button" href="student-dashboard.html">
+                                            <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">account_box</i> Employee
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button" href="#">
+                                            <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">school</i> Manager
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- Account menu -->
+                                <div class="sidebar-heading">Account</div>
+                                <ul class="sidebar-menu">
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button sidebar-js-collapse" data-toggle="collapse" href="#account_menu">
+                                            <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">person_outline</i>
+                                            Account
+                                            <span class="ml-auto sidebar-menu-toggle-icon"></span>
+                                        </a>
+                                        <ul class="sidebar-submenu sm-indent collapse" id="account_menu">
+                                            <li class="sidebar-menu-item">
+                                                <a class="sidebar-menu-button" href="student-account-edit-basic.html">
+                                                    <span class="sidebar-menu-text">Basic Information</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div class="sidebar-heading">Student</div>
+                                <ul class="sidebar-menu sm-active-button-bg">
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button" href="student-browse-courses.html">
+                                            <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">school</i> Browse Courses
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button" href="student-take-quiz.html">
+                                            <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">dvr</i> Take a Quiz
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button" href="student-quiz-results.html">
+                                            <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">poll</i> Quiz Results
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="sidebar-menu sm-active-button-bg">
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button" href="privacy-policy.html">
+                                            <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">import_contacts</i> Privacy Policy
+                                        </a>
+                                    </li>
+                                    <li class="sidebar-menu-item">
+                                        <a class="sidebar-menu-button" href="g2p-directory.html">
+                                            <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">folder</i> Go to Person
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="assets/vendor/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/vendor/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap.min.js"></script>
+
+    <!-- Perfect Scrollbar -->
+    <script src="assets/vendor/perfect-scrollbar.min.js"></script>
+
+    <!-- MDK -->
+    <script src="assets/vendor/dom-factory.js"></script>
+    <script src="assets/vendor/material-design-kit.js"></script>
+
+    <!-- App JS -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Highlight.js -->
+    <script src="assets/js/hljs.js"></script>
+
+    <!-- Moment.js -->
+    <script src="assets/vendor/moment.min.js"></script>
+    <script src="assets/vendor/moment-range.min.js"></script>
+
+    <!-- Global Settings -->
+    <script src="assets/js/settings.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="assets/vendor/sweetalert.min.js"></script>
+    <script src="assets/js/sweetalert.js"></script>
+
+</body>
+
+</html>
